@@ -1,6 +1,6 @@
 // Given an integer array nums, return an array output where output[i] 
 // is the product of all the elements of nums except nums[i].
-function extracoding(arr){
+function integerArray(arr){
         let result1 = []
         for(let i = 0; i < arr.length; i++){
             let product = 1
@@ -15,4 +15,4 @@ function extracoding(arr){
         }
         return result1
     }
-    console.log(extracoding([1,2,4,6]))
+    console.log(integerArray([1,2,4,6]))
